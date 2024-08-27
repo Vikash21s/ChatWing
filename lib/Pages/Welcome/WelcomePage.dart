@@ -8,13 +8,14 @@ class Welcomepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-          child: Column(
-        children: [
-          SvgPicture.asset(
-            AssetsImage.appIconSVG,
-          ),
-        ],
-      )),
+        child: Column(
+          children: [
+            SvgPicture.asset(
+              AssetsImage.appIconSVG,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
