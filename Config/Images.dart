@@ -1,7 +1,13 @@
 class AssetsImage {
+  static const iconsPath = "assets/Icons";
+  static const imagesPath = "assets/Images";
 
-  static const iconsPath = "assets/icons";
-  static const imagesPath = "assets/images";
+  //PNG Images Only
+  static const boyPic = "$imagesPath/boy_pic.png";
+  static const girlPic = "$imagesPath/girl_pic.png";
 
-  static const appIcon = "$iconsPath/";
+  // SVG Zicons Only
+  static const appIconSVG = "$iconsPath/app_icon.svg";
+  static const connectSVG = "$iconsPath/raphael_connect.svg";
+  static const plugSVG = "$iconsPath/fa_solid_plug";
 }
